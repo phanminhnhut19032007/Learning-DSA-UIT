@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\DSA\\QuickSortLoMuTo\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{204757EA-3B7B-4E31-827E-EF4B8362D520}|QuickSortLoMuTo.vcxproj|D:\\DSA\\QuickSortLoMuTo\\QuickSortLoMuTo.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{204757EA-3B7B-4E31-827E-EF4B8362D520}|QuickSortLoMuTo.vcxproj|solutionrelative:QuickSortLoMuTo.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "QuickSortLoMuTo.cpp",
+              "DocumentMoniker": "D:\\DSA\\QuickSortLoMuTo\\QuickSortLoMuTo.cpp",
+              "RelativeDocumentMoniker": "QuickSortLoMuTo.cpp",
+              "ToolTip": "D:\\DSA\\QuickSortLoMuTo\\QuickSortLoMuTo.cpp",
+              "RelativeToolTip": "QuickSortLoMuTo.cpp",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAABgAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-03-08T07:14:29.459Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -149,11 +149,22 @@ void deletemiddle(node &a, int pos)
         truoc->next = sau->next;
     }
 }
-// Sap xep
+// Sap xep(selecSort)
 void Sort(node &a)
 {
     for (node p = a; p != NULL; p = p->next)
     {
+        node min = p;
+        for (node q = p->next; q != NULL; q = q->next)
+        {
+            if (q->data < min->data)
+            {
+                min = q;
+            }
+        }
+        int tmp = min->data;
+        min->data = p->data;
+        p->data = tmp;
     }
 }
 

@@ -7,51 +7,53 @@ struct Node
     Node *next;
 };
 typedef struct Node *node;
-Node *makeNode(int x)
+// tao 1 node moi
+node makeNode(int x)
 {
-    node temp = new Node();
-    temp->data = x;
-    temp->next = NULL;
-    return temp;
+    node tmp = new Node();
+    tmp->data = x;
+    tmp->next = NULL;
+    return tmp;
 }
-// Kiem tra rong
-bool empty(node a)
+
+// check empty
+bool check(node a)
 {
     return a == NULL;
 }
-// size linked list
+// dem phan tu
 int Size(node a)
 {
-    int size = 0;
+    int cnt = 0;
     while (a != NULL)
     {
-        size++;
+        cnt++;
         a = a->next;
     }
-    return size;
+    return cnt;
 }
-// them 1 phan tu vao dau danh sach lien ket
-void insertFirst(node &a, int x)
+
+// them 1 phan tu vao dau dslk
+void insertfirst(node &a, int x)
 {
-    node temp = makeNode(x);
+    node tmp = makeNode(x);
     if (a == NULL)
     {
-        a = temp;
+        a = tmp;
     }
     else
     {
-        temp->next = a;
-        a = temp;
+        tmp->next = a;
+        a = tmp;
     }
 }
-
-// them 1 phan tu vao cuoi linked list
-void insertLast(node &a, int x)
+// them 1 phan tu vao cuoi
+void insertlast(node &a, int x)
 {
-    node temp = makeNode(x);
+    node tmp = makeNode(x);
     if (a == NULL)
     {
-        a = temp;
+        a = tmp;
     }
     else
     {
@@ -60,27 +62,25 @@ void insertLast(node &a, int x)
         {
             p = p->next;
         }
-        p->next = temp;
+        p->next = tmp;
     }
 }
 
-// them 1 vao giua dslk
-void insertMiddle(node &a, int x, int pos)
+// chen 1 phan tu vao giua dslk
+void insertmid(node &a, int x, int pos)
 {
     int n = Size(a);
     if (pos <= 0 || pos > n + 1)
-    {
-        cout << "Vi tri chen khong hop le ";
-        return;
-    }
+        cout << "Khong the chen ";
+    return;
     if (n == 1)
     {
-        insertFirst(a, x);
+        insertfirst(a, x);
         return;
     }
-    else if (n == pos + 1)
+    if (n == pos + 1)
     {
-        insertLast(a, x);
+        insertlast(a, x);
         return;
     }
     node p = a;
@@ -88,13 +88,88 @@ void insertMiddle(node &a, int x, int pos)
     {
         p = p->next;
     }
-    node temp = makeNode(x);
-    temp->next = p->next;
-    p->next = temp;
+    node tmp = makeNode(x);
+    tmp->next = p->next;
+    p->next = tmp;
+}
+// xoa phan tu o dau
+void deletefirst(node &a)
+{
+    if (a == NULL)
+        return;
+    else
+    {
+        a = a->next;
+    }
+}
+
+// xoa phan tu cuoi dslk
+void deletelast(node &a)
+{
+    if (a == NULL)
+        return;
+    else
+    {
+        node truoc = NULL;
+        node sau = a;
+        while (sau->next != NULL)
+        {
+            truoc = sau;
+            sau = sau->next;
+        }
+        if (truoc == NULL)
+        {
+            a = NULL;
+        }
+        else
+        {
+            truoc->next = NULL;
+        }
+    }
+}
+// xoa o giua
+void deletemiddle(node &a, int pos)
+{
+    if (pos <= 0 || pos > Size(a))
+        return;
+    node truoc = NULL;
+    node sau = a;
+    for (int i = 1; i < pos; i++)
+    {
+        truoc = sau;
+        sau = sau->next;
+    }
+    if (truoc == NULL)
+    {
+        a = a->next;
+    }
+    else
+    {
+
+        truoc->next = sau->next;
+    }
+}
+// Sap xep
+void Sort(node &a)
+{
+    for (node p = a; p != NULL; p = p->next)
+    {
+    }
+}
+
+void in(node a)
+{
+    cout << "-------------------------\n";
+    while (a != NULL)
+    {
+        cout << a->data << endl;
+        a = a->next;
+    }
 }
 
 int main()
 {
+    node head = NULL;
 
     return 0;
 }

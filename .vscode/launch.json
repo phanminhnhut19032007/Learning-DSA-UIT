@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "d:/DSA/MergeSort",
-      "program": "d:/DSA/MergeSort/build/Debug/outDebug",
+      "cwd": "d:/DSA/ArrayCongDonMang1Chieu",
+      "program": "d:/DSA/ArrayCongDonMang1Chieu/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [

@@ -16,7 +16,7 @@ Kho lưu trữ này không chỉ là nơi lưu code, mà là **Nhật ký tư du
 ### 1. Fundamentals (Nền tảng)
 - [x] **Complexity Analysis:** Hiểu sâu về $O(n)$, $O(\log n)$, $O(n^2)$.
 - [x] **Recursion:** Đệ quy và khử đệ quy.
-- [ ] **Bit Manipulation:** Tối ưu hóa mức bit.
+
 
 ### 2. Data Structures (Cấu trúc dữ liệu)
 - 📦 **Linear:** `Arrays`, `Linked Lists`, `Stacks`, `Queues`.

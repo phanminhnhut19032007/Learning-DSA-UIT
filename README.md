@@ -54,14 +54,13 @@ Kho lưu trữ này không chỉ là nơi lưu code, mà là **Nhật ký tư du
 
 ## 🛠️ Công cụ sử dụng
 * **IDE:** Visual Studio Code
-* **Compiler:** GCC g++ 17
-* **Debugging:** GDB & Logisim (cho bài tập Assembly/MIPS)
+
 
 ---
 
 ## 🤝 Kết nối
 Bạn có thể tìm thấy mình tại:
-- **Email:** `nhat.uit@email.com`
+- **Email:** `phanminhnhut19032007@gmail.com`
 - **LinkedIn:** [Minh Nhựt](https://linkedin.com/in/yourprofile)
 
 ---

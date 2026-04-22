@@ -62,7 +62,7 @@ Tập trung vào tư duy giải quyết vấn đề và tối ưu hóa code.
 
 ```bash
 # Clone repository
-git clone [https://github.com/yourusername/dsa-mastery.git](https://github.com/yourusername/dsa-mastery.git)
+git clone [https://github.com/phanminhnhut19032007/dsa-mastery.git](https://github.com/phanminhnhut19032007/dsa-mastery.git)
 
 # Biên dịch một bài cụ thể
 g++ ./Data-Structures/LinkedList/main.cpp -o main

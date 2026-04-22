@@ -1,4 +1,4 @@
-# 🧠 DSA Exploration & Problem Solving
+# 🧠 DSA Data Structure Alog DSA Data Structure Alogrithm
 
 > "Bad programmers worry about the code. Good programmers worry about data structures and their relationships." — Linus Torvalds
 

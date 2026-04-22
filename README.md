@@ -6,63 +6,64 @@
 [![LeetCode](https://img.shields.io/badge/Practice-LeetCode-orange?style=flat-square&logo=leetcode)](https://leetcode.com/u/your_user/)
 [![Profile](https://img.shields.io/badge/University-UIT-red?style=flat-square)](https://www.uit.edu.vn/)
 
-## 🎯 Tổng quan
-Kho lưu trữ này không chỉ là nơi lưu code, mà là **Nhật ký tư duy thuật toán** của mình. Mỗi cấu trúc dữ liệu hay thuật toán đều được tối ưu về cả $Time$ và $Space Complexity$.
+Kho lưu trữ này chứa toàn bộ kiến thức, mã nguồn và ghi chú về **Cấu trúc dữ liệu và Giải thuật** mà mình đã tích lũy trong quá trình học tập tại UIT.
 
 ---
 
-## 🗺️ Lộ trình (Learning Roadmap)
-
-### 1. Fundamentals (Nền tảng)
-- [x] **Complexity Analysis:** Hiểu sâu về $O(n)$, $O(\log n)$, $O(n^2)$.
-- [x] **Recursion:** Đệ quy và khử đệ quy.
-- [ ] **Bit Manipulation:** Tối ưu hóa mức bit.
-
-### 2. Data Structures (Cấu trúc dữ liệu)
-- 📦 **Linear:** `Arrays`, `Linked Lists`, `Stacks`, `Queues`.
-- 🌲 **Non-Linear:** `Binary Trees`, `Heaps`, `Graphs`.
-- 🔑 **Hashing:** `Hash Maps`, `Hash Sets`.
-
-### 3. Algorithms (Giải thuật)
-- ⚡ **Sorting:** QuickSort, MergeSort, HeapSort.
-- 🔍 **Searching:** Binary Search on Answer, BFS/DFS.
-- 💎 **Advanced:** Dynamic Programming, Greedy, Sliding Window.
+## 📌 Mục lục
+1. [Cấu trúc dữ liệu](#-cấu-trúc-dữ-liệu)
+2. [Giải thuật](#-giải-thuật)
+3. [Độ phức tạp thời gian (Big O)](#-độ-phức-tạp)
+4. [Tài liệu tham khảo](#-tài-liệu-tham-khảo)
 
 ---
 
-## 📂 Kho giải pháp (Solution Vault)
+## 🏗 Cấu trúc dữ liệu
+*Mỗi thư mục bao gồm file triển khai (.cpp) và giải thích lý thuyết.*
 
-### 🔹 Array & Hashing
-- [Two Sum](./solutions/TwoSum.cpp) — $O(n)$ using Hash Map.
-- [Valid Anagram](./solutions/ValidAnagram.cpp) — Frequency counting.
-
-### 🔹 Linked List
-- [Reverse Linked List](./solutions/ReverseList.cpp) — Iterative & Recursive.
-- [Merge Two Sorted Lists](./solutions/MergeLists.cpp) — Pointer manipulation.
-
----
-
-## 📈 Tóm tắt độ phức tạp (Cheat Sheet)
-
-| Cấu trúc | Truy cập | Tìm kiếm | Chèn | Xóa |
-| :--- | :---: | :---: | :---: | :---: |
-| **Array** | $O(1)$ | $O(n)$ | $O(n)$ | $O(n)$ |
-| **Hash Table** | $N/A$ | $O(1)$ | $O(1)$ | $O(1)$ |
-| **BST (Balanced)** | $O(\log n)$ | $O(\log n)$ | $O(\log n)$ | $O(\log n)$ |
+| Cấu trúc dữ liệu | Trạng thái | Link |
+| :--- | :---: | :--- |
+| **Array & String** | ✅ | [Xem tại đây](./Data-Structures/Array/) |
+| **Linked List** (Single, Double) | ✅ | [Xem tại đây](./Data-Structures/LinkedList/) |
+| **Stack & Queue** | ✅ | [Xem tại đây](./Data-Structures/Stack-Queue/) |
+| **Trees** (BST, AVL, B-Tree) | 🚧 | [Xem tại đây](./Data-Structures/Trees/) |
+| **Hash Table** | 🚧 | [Xem tại đây](./Data-Structures/Hash/) |
+| **Graph** | ⏳ | [Xem tại đây](./Data-Structures/Graph/) |
 
 ---
 
-## 🛠️ Công cụ sử dụng
-* **IDE:** Visual Studio Code
-* **Compiler:** GCC g++ 17
-* **Debugging:** GDB & Logisim (cho bài tập Assembly/MIPS)
+## ⚡ Giải thuật
+Tập trung vào tư duy giải quyết vấn đề và tối ưu hóa code.
+
+### 🔍 Tìm kiếm & Sắp xếp
+- [x] **Sorting:** Bubble, Selection, Insertion, Merge, Quick Sort.
+- [x] **Searching:** Linear, Binary Search.
+
+### 🛠 Các kỹ thuật thuật toán
+- [ ] **Recursion & Backtracking:** Đệ quy và Quay lui (N-Queens, Sudoku).
+- [ ] **Greedy:** Giải thuật tham lam.
+- [ ] **Dynamic Programming:** Quy hoạch động (Knapsack, LCS).
+- [ ] **Divide and Conquer:** Chia để trị.
 
 ---
 
-## 🤝 Kết nối
-Bạn có thể tìm thấy mình tại:
-- **Email:** `nhat.uit@email.com`
-- **LinkedIn:** [Minh Nhựt](https://linkedin.com/in/yourprofile)
+## ⏱ Độ phức tạp (Big O Cheat Sheet)
+
+| Algorithm | Average | Worst | Space |
+| :--- | :--- | :--- | :--- |
+| **Quick Sort** | $O(n \log n)$ | $O(n^2)$ | $O(\log n)$ |
+| **Merge Sort** | $O(n \log n)$ | $O(n \log n)$ | $O(n)$ |
+| **Binary Search** | $O(\log n)$ | $O(\log n)$ | $O(1)$ |
 
 ---
-*Last updated: 2026-04-22*
+
+## 🛠 Cách sử dụng
+Để chạy các ví dụ trong repo này, bạn cần trình biên dịch C++ (GCC/G++):
+
+```bash
+# Clone repository
+git clone [https://github.com/yourusername/dsa-mastery.git](https://github.com/yourusername/dsa-mastery.git)
+
+# Biên dịch một bài cụ thể
+g++ ./Data-Structures/LinkedList/main.cpp -o main
+./main

@@ -1,20 +1,67 @@
-# 🖥️ [MINH-NHUT-SYSTEMS]:/DSA-MASTERY $ 
+# 🏮 Data Structures & Algorithms (DSA) Mastery
 
-<p align="center">
-  <img src="https://capsule-render.vercel.app/render?type=waving&color=39FF14&height=150&section=header&text=DSA%20MASTERY%20v1.0&fontSize=70&fontColor=000" />
-</p>
+![DSA Banner](https://img.shields.io/badge/Algorithm-Learning-blue?style=for-the-badge&logo=algorithms)
+![Language](https://img.shields.io/badge/Main_Language-C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B)
+![Status](https://img.shields.io/badge/Status-In_Progress-yellow?style=for-the-badge)
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Focus-Data_Structures-green?style=for-the-badge&logo=gitbook" />
-  <img src="https://img.shields.io/badge/Main_Language-C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B" />
-  <img src="https://img.shields.io/badge/University-UIT-red?style=for-the-badge" />
-</p>
+Kho lưu trữ này chứa toàn bộ kiến thức, mã nguồn và ghi chú về **Cấu trúc dữ liệu và Giải thuật** mà mình đã tích lũy trong quá trình học tập tại UIT.
 
 ---
 
-## ⚡ SYSTEM STATUS
+## 📌 Mục lục
+1. [Cấu trúc dữ liệu](#-cấu-trúc-dữ-liệu)
+2. [Giải thuật](#-giải-thuật)
+3. [Độ phức tạp thời gian (Big O)](#-độ-phức-tạp)
+4. [Tài liệu tham khảo](#-tài-liệu-tham-khảo)
+
+---
+
+## 🏗 Cấu trúc dữ liệu
+*Mỗi thư mục bao gồm file triển khai (.cpp) và giải thích lý thuyết.*
+
+| Cấu trúc dữ liệu | Trạng thái | Link |
+| :--- | :---: | :--- |
+| **Array & String** | ✅ | [Xem tại đây](./Data-Structures/Array/) |
+| **Linked List** (Single, Double) | ✅ | [Xem tại đây](./Data-Structures/LinkedList/) |
+| **Stack & Queue** | ✅ | [Xem tại đây](./Data-Structures/Stack-Queue/) |
+| **Trees** (BST, AVL, B-Tree) | 🚧 | [Xem tại đây](./Data-Structures/Trees/) |
+| **Hash Table** | 🚧 | [Xem tại đây](./Data-Structures/Hash/) |
+| **Graph** | ⏳ | [Xem tại đây](./Data-Structures/Graph/) |
+
+---
+
+## ⚡ Giải thuật
+Tập trung vào tư duy giải quyết vấn đề và tối ưu hóa code.
+
+### 🔍 Tìm kiếm & Sắp xếp
+- [x] **Sorting:** Bubble, Selection, Insertion, Merge, Quick Sort.
+- [x] **Searching:** Linear, Binary Search.
+
+### 🛠 Các kỹ thuật thuật toán
+- [ ] **Recursion & Backtracking:** Đệ quy và Quay lui (N-Queens, Sudoku).
+- [ ] **Greedy:** Giải thuật tham lam.
+- [ ] **Dynamic Programming:** Quy hoạch động (Knapsack, LCS).
+- [ ] **Divide and Conquer:** Chia để trị.
+
+---
+
+## ⏱ Độ phức tạp (Big O Cheat Sheet)
+
+| Algorithm | Average | Worst | Space |
+| :--- | :--- | :--- | :--- |
+| **Quick Sort** | $O(n \log n)$ | $O(n^2)$ | $O(\log n)$ |
+| **Merge Sort** | $O(n \log n)$ | $O(n \log n)$ | $O(n)$ |
+| **Binary Search** | $O(\log n)$ | $O(\log n)$ | $O(1)$ |
+
+---
+
+## 🛠 Cách sử dụng
+Để chạy các ví dụ trong repo này, bạn cần trình biên dịch C++ (GCC/G++):
+
 ```bash
-[SYSTEM] Initializing... DONE
-[USER]   Minh Nhựt (Software Engineering - UIT)
-[GPA]    7.88 / 10.0
-[TARGET] Cloud Engineering & DevOps Path
+# Clone repository
+git clone [https://github.com/yourusername/dsa-mastery.git](https://github.com/yourusername/dsa-mastery.git)
+
+# Biên dịch một bài cụ thể
+g++ ./Data-Structures/LinkedList/main.cpp -o main
+./main

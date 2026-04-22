@@ -1,55 +1,51 @@
-# 🏮 Data Structures & Algorithms (DSA) Mastery
-
-<p align="center">
-  <img src="https://capsule-render.vercel.app/render?type=waving&color=auto&height=200&section=header&text=DSA%20Mastery&fontSize=90" />
+# 🏮 DSA Mastery - Hành Trình Chinh Phục Thuật Toán
+<p align="left">
+  <img src="https://img.shields.io/badge/Main%20Language-C%2B%2B-blue?style=for-the-badge&logo=c%2B%2B" />
+  <img src="https://img.shields.io/badge/University-UIT-red?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Status-Learning-green?style=for-the-badge" />
 </p>
 
-![DSA Banner](https://img.shields.io/badge/Algorithm-Learning-blue?style=for-the-badge&logo=algorithms)
-![Language](https://img.shields.io/badge/Main_Language-C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B)
-![UIT](https://img.shields.io/badge/University-UIT-red?style=for-the-badge)
-
-Kho lưu trữ này chứa toàn bộ kiến thức, mã nguồn và ghi chú về **Cấu trúc dữ liệu và Giải thuật** mà mình đã tích lũy trong quá trình học tập tại UIT.
+Kho lưu trữ này là nơi mình hệ thống hóa toàn bộ kiến thức về **Cấu trúc dữ liệu & Giải thuật** trong chương trình Kỹ thuật Phần mềm tại UIT.
 
 ---
 
-## 🏆 Thành tích & Mục tiêu
-![Trophies](https://github-profile-trophy.vercel.app/?username=yourgithubusername&theme=flat&column=7&margin-w=15&no-bg=true)
-
-- [x] Nắm vững các cấu trúc dữ liệu cơ bản.
-- [ ] Thành thạo Quy hoạch động (Dynamic Programming).
-- [ ] Đạt Rank Top 10% trên các nền tảng giải thuật.
+## 📈 Hoạt Động Của Mình
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=your-username&show_icons=true&theme=tokyonight&hide_border=true)
 
 ---
 
-## 🏗 Cấu trúc dữ liệu
-> "Cấu trúc dữ liệu tốt giúp giải thuật trở nên đơn giản."
+## 🏗️ Danh Mục Cấu Trúc Dữ Liệu
+*Mỗi thư mục chứa code triển khai chi tiết và giải thích độ phức tạp.*
 
-| Cấu trúc dữ liệu | Trạng thái | Link | Visualization |
-| :--- | :---: | :--- | :---: |
-| **Array & String** | ✅ | [Xem tại đây](./Data-Structures/Array/) | 📊 |
-| **Linked List** | ✅ | [Xem tại đây](./Data-Structures/LinkedList/) | 🔗 |
-| **Stack & Queue** | ✅ | [Xem tại đây](./Data-Structures/Stack-Queue/) | 🥞 |
-| **Trees (BST, AVL)** | 🚧 | [Xem tại đây](./Data-Structures/Trees/) | 🌲 |
-| **Hash Table** | 🚧 | [Xem tại đây](./Data-Structures/Hash/) | 🔑 |
-| **Graph** | ⏳ | [Xem tại đây](./Data-Structures/Graph/) | 🕸 |
-
----
-
-## ⚡ Giải thuật tiêu biểu
-
-### 🔍 Tìm kiếm & Sắp xếp
-- **Sorting:** `Bubble`, `Selection`, `Insertion`, `Merge`, `Quick Sort`.
-- **Searching:** `Linear`, `Binary Search`.
-
-### 🧠 Kỹ thuật nâng cao
-- **Recursion & Backtracking:** Giải quyết bài toán N-Queens, Hoán vị.
-- **Dynamic Programming:** Tối ưu hóa bài toán Cái túi (Knapsack), Chuỗi con chung dài nhất (LCS).
+| Icon | Cấu trúc dữ liệu | Trạng thái | Đường dẫn |
+| :---: | :--- | :---: | :--- |
+| 📦 | **Array & String** | ✅ | [Chi tiết](./Data-Structures/Array/) |
+| 🔗 | **Linked List** | ✅ | [Chi tiết](./Data-Structures/LinkedList/) |
+| 🥞 | **Stack & Queue** | ✅ | [Chi tiết](./Data-Structures/Stack-Queue/) |
+| 🌲 | **Trees (BST, AVL, B-Tree)** | 🚧 | [Chi tiết](./Data-Structures/Trees/) |
+| 🔑 | **Hash Table** | 🚧 | [Chi tiết](./Data-Structures/Hash/) |
+| 🕸️ | **Graph Algorithms** | ⏳ | [Chi tiết](./Data-Structures/Graph/) |
 
 ---
 
-## ⏱ Độ phức tạp (Big O Cheat Sheet)
+## ⚡ Giải Thuật Trọng Tâm
 
-| Thuật toán | Trung bình | Tệ nhất | Không gian |
+### 1. Sắp xếp & Tìm kiếm (Sorting & Searching)
+- [x] **Quick Sort / Merge Sort:** Tối ưu $O(n \log n)$.
+- [x] **Binary Search:** Tìm kiếm trên mảng đã sắp xếp.
+
+### 2. Kỹ thuật nâng cao
+- [ ] **Dynamic Programming:** Bài toán tối ưu hóa con đường, cái túi.
+- [ ] **Backtracking:** Giải quyết bài toán quân hậu, mê cung.
+- [ ] **Greedy:** Thuật toán tham lam.
+
+---
+
+## ⏱️ Bảng Tra Cứu Độ Phức Tạp (Big O)
+
+> "Viết code chạy được là tốt, viết code tối ưu là nghệ thuật."
+
+| Thuật toán | Độ phức tạp TB | Độ phức tạp Tệ nhất | Bộ nhớ |
 | :--- | :--- | :--- | :--- |
 | **Quick Sort** | $O(n \log n)$ | $O(n^2)$ | $O(\log n)$ |
 | **Merge Sort** | $O(n \log n)$ | $O(n \log n)$ | $O(n)$ |
@@ -57,26 +53,23 @@ Kho lưu trữ này chứa toàn bộ kiến thức, mã nguồn và ghi chú v�
 
 ---
 
-## 🛠 Bộ công cụ của mình
-<p align="left">
-  <img src="https://img.shields.io/badge/Visual%20Studio%20Code-007ACC?style=flat-square&logo=visual-studio-code&logoColor=white" />
-  <img src="https://img.shields.io/badge/C++-00599C?style=flat-square&logo=c%2B%2B&logoColor=white" />
-  <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white" />
-  <img src="https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black" />
-</p>
+## 🛠️ Công Cụ & Môi Trường
+* **Ngôn ngữ:** C++17 hoặc mới hơn.
+* **IDE:** Visual Studio Code (với C++ Extension).
+* **Compiler:** G++ (MinGW/GCC).
+* **Platform:** Thực hành thêm trên LeetCode & Codeforces.
 
 ---
 
-## 📖 Cách sử dụng
-Để chạy các ví dụ trong repo này, bạn cần trình biên dịch C++ (GCC/G++):
+## 🚀 Cách Chạy Code
+1. Clone repo: `git clone https://github.com/phanminhnhut19032007/dsa-mastery.git`
+2. Truy cập thư mục bài tập: `cd Data-Structures/[Ten_Thu_Muc]`
+3. Biên dịch: `g++ main.cpp -o app`
+4. Chạy: `./app`
 
-```bash
-# 1. Clone repository
-git clone [https://github.com/phanminhnhut19032007/dsa-mastery.git](https://github.com/phanminhnhut19032007/dsa-mastery.git)
-
-# 2. Di chuyển vào thư mục bài tập
-cd Data-Structures/LinkedList
-
-# 3. Biên dịch và chạy
-g++ main.cpp -o program
-./program
+---
+<p align="center">
+  <b>Minh Nhựt</b><br>
+  Software Engineering @ UIT<br>
+  <i>"Học không phải để biết nhiều, mà để biết những gì có ích."</i>
+</p>

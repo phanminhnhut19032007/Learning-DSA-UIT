@@ -18,7 +18,7 @@ void merge(int a[], int l, int m, int r)
         }
         else
         {
-            a[l] = y[j];
+            a[l] = y[j]; 
             l++;
             j++;
         }

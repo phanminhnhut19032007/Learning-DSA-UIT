@@ -19,21 +19,25 @@ void init()
         q.pop();
     }
 }
+//tim so cach it nhat chuyen tu 1 so sang 1 so khac
+int bfs(int s ,int t)
+{
+    queue<pair<int,int>> Q;
+    Q.push({s,0});
+    set<int> se;
+    while(!Q.empty())
+    {
+        pair<int,int> x = Q.front();
+        Q.pop();
+        if(x.first==t)
+        {
+            return x.second;
+        }
+    }
+}
 
 int main()
 {
-    init();
-    int t;
-    cin >> t;
-    while (t--)
-    {
-        int n;
-        cin >> n;
-        for (int i = 0; i < n; i++)
-        {
-            cout << s[i] << " ";
-        }
-    }
 
     return 0;
 }

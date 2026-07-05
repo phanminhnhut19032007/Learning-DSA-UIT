@@ -10,7 +10,7 @@ typedef struct Node *node;
 // tao 1 node moi
 node makeNode(int x)
 {
-    node tmp = new Node();
+    node tmp = new Node;
     tmp->data = x;
     tmp->next = NULL;
     return tmp;
